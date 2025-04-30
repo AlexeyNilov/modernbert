@@ -20,10 +20,10 @@ def predict(text: str) -> str:
 text = """You will be given a question and options. Select the right answer.
 QUESTION: Wolf sees a car. What will the wolf do?
 CHOICES:
-- A: Attack
-- B: Run away
-- C: Eat
-- D: None of these
+- 1: attack
+- 2: run away
+- 3: eat
+- 4: none of these
 ANSWER: [unused0] [MASK]"""
 answer = predict(text)
 print(f"Predicted answer: {answer}")
